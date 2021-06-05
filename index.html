@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>Shivan Work Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Shivan Work Portfolio</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#sprint1" class="w3-bar-item w3-button">Sprint 1</a>
+      <a href="#sprint2" class="w3-bar-item w3-button">Sprint 2</a>
+      <a href="#sprint3" class="w3-bar-item w3-button">Sprint 3</a>
+      <a href="#sprint4" class="w3-bar-item w3-button">Sprint 4</a>
+      <a href="#sprint5" class="w3-bar-item w3-button">Sprint 5</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px;margin-top: 50px;" id="home">
+  <img class="w3-image" src="images1/Web_Scraping_for_Non-Programmers.png" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Jobverz</h1>
+  </div>
+</header>
+
+
+
+<!-- Page content -->
+<!-- <div class="w3-content"> -->
+    <div id="about">
+<div style="margin-left: 15%;margin-right: 15%;margin-top: 30px;">
+    <br>
+    <br>
+    <h1 class="w3-center">About Web scraping</h1><br>
+    <p class="w3-large">Initial thoughts on web scraping as a work would be trivial, easy, and unimportant. However, I have realised through the 4 weeks of internship at Multiverse that it is one of the most important steps in the Data science pipeline which most of us turn a blind eye to. </p>
+    <p class="w3-large">Structured data is of paramount importance when it comes to data analytics but more than 70% of  data present online is unstructured and hence is of little use. However, Web scraping allows us to “legally” collect information from thousands of websites and structure the data into desirable format which eases further steps of the Data science pipeline.</p>
+    <img src="images1/Steps_to_a_Data_Science_Project_Lifecyle.jpg" class="w3-round w3-image " alt="Table Setting">
+</div>
+</div>
+<br>
+<div class="w3-light-grey">
+<div style="margin-left: 15%;margin-right: 15%;margin-top: 30px; " id="about">
+    <br>
+    <br>
+    <h1 class="w3-center">About Scrapy tool</h1><br>
+    <p class="w3-large">There exists a number of ways and libraries to perform the task of web scraping. I have chosen the scrapy tool to do so as it is very fast and supports scalability on an enterprise level. Working of the scrapy tool can be summarized as follows.</p>
+    <img src="images1/scrapy_architecture.png" class="w3-round w3-image " alt="Table Setting">
+</div>
+<br>
+</div>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint1">
+        <h1 class="w3-center">Sprint 1</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/people_per_hour1.png" class="w3-round w3-image image" alt="Table Setting">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large text_css">As a part of sprint 1, I started researching how to use a scrapy tool and scraped all the available Data Scientist job postings from People per hour website. Structured the obtained data into the required pre-defined schema as a JSON format. Converted it into a CSV file.</p>
+        <!-- <p class="w3-large">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        </div>
+    </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-light-grey">
+    <div class="w3-row w3-padding-64" id="sprint2">
+      <h1 class="w3-center">Sprint 2</h1><br>
+      <div class="w3-col m6 w3-padding-large">
+          <p class="w3-large text_css">For the sprint 2, researched on SkillsFuture Singapore website and fetched the data. Figured out the architecture of SkillsFuture website where competency levels for both the technical and generic skills for each job role is given. Obtained the required skills competency levels data for each job role under different sectors and structured it into CSV file.</p>
+          <!-- <p class="w3-large w3-text-grey ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    -->
+      </div>
+      
+      <div class="w3-col m6 w3-padding-large">
+        <img src="images1/skillsfuture.png" class="w3-round w3-image image" alt="Menu">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint3"">
+        <h1 class="w3-center">Sprint 3</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/walmart.PNG" class="w3-round w3-image image" alt="Table Setting">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large text_css">Scraped all the available job postings from the Walmart website which stands 1st in Fortune 500 (2020) companies. Fetched data for all the job postings using Selenium tool from Walmart website. On a whole scraped 43K job postings and processed the obtained data into predefined schema and structured it into a CSV file.</p>
+        <!-- <p class="w3-large w3-text-grey ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        </div>
+    </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-light-grey">
+  <div class="w3-row w3-padding-64" id="sprint4">
+    <h1 class="w3-center">Sprint 4</h1><br>
+    <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large text_css">Scraped all the available job postings from two of the top 20 Fortune 500 companies (2020) which are  United Health group and General motors websites using Scrapy and Selenium tool. On a whole scraped 5K job postings and processed the obtained data into predefined schema and structured it into a CSV file.</p>
+        <!-- <p class="w3-large w3-text-grey ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    -->
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large">
+      <img src="images1/UHG.PNG" class="w3-round w3-image image" alt="Menu">
+    </div>
+  </div>
+</div>
+  <hr>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint5" >
+        <h1 class="w3-center">Sprint 5</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/sprint5.PNG" class="w3-round w3-image image">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large text_css">Scraped all the available job postings from four of the top 100 Fortune 500 companies (2020) which are Target, Anthem, Well Forgo and Mc Donalds websites using Scrapy as well as JSON and Selenium tools. On a whole scraped 17K job postings and processed the obtained data into predefined schema and structured it into a CSV file.</p>
+        <!-- <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        </div>
+    </div>
+  
+<!-- End page content -->
+<!-- </div> -->
+
+
+</body>
+</html>
